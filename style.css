@@ -686,13 +686,14 @@ footer .container .inner .f-icons {
 	/* footer */
 
 	footer {
-		padding: 3rem;
+		padding: 1rem;
 		text-align: center;
 		align-items: center;
 		justify-content: center;
 	}
 
 	footer .container {
+		width: 95%;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
@@ -701,12 +702,12 @@ footer .container .inner .f-icons {
 
 	.footer.left,
 	.footer.right {
-		width: 90%;
+		width: 100%;
 		align-items: center;
 		justify-content: space-evenly;
 	}
 
-	.footer.right .inner {
+	/* .footer.right .inner {
 		min-width: 50%;
-	}
+	} */
 }
