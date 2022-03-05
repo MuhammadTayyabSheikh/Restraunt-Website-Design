@@ -631,18 +631,21 @@ footer .container .inner .f-icons {
 		height: 90vh;
 	}
 	.sec.sec-3 .right {
-		width: 80%;
+		width: 90%;
+		max-height: 100%;
 	}
 
 	/* Menu */
 	.menu {
 		flex-direction: column;
 		gap: 3rem;
+		width: 90%;
 	}
 
 	/* Section 5 */
 	.sec.sec-5 .right {
 		width: 100%;
+		max-height: 100%;
 	}
 
 	/* Sec 6 */
