@@ -628,6 +628,8 @@ footer .container .inner .f-icons {
 	/* sec-3 */
 	.sec-3 {
 		align-items: center;
+		justify-content: center;
+		padding: 0;
 		height: 90vh;
 	}
 	.sec.sec-3 .right {
@@ -641,6 +643,7 @@ footer .container .inner .f-icons {
 		align-items: center;
 		justify-content: center;
 		gap: 3rem;
+		padding: 0.8rem;
 		width: 95%;
 	}
 
@@ -707,7 +710,7 @@ footer .container .inner .f-icons {
 		justify-content: space-evenly;
 	}
 
-	/* .footer.right .inner {
+	.footer.right .inner.down {
 		min-width: 50%;
-	} */
+	}
 }
