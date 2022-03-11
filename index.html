@@ -7,11 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <script src="./index.js" defer></script>
+    <!-- <link href="node_modules/froala-editor/css/froala_editor.pkgd.min.css" rel="stylesheet" type="text/css" /> -->
     <title>Task 19</title>
 </head>
 
 <body>
-    <nav class="nav">
+    <nav class="nav" id="nav">
         <a href="./index.html">
             <img src="./Images/Logo.png" alt="">
         </a>
@@ -322,8 +324,11 @@
             </div>
         </div>
     </footer>
+    <!-- <script type="text/javascript" src="node_modules/froala-editor/js/froala_editor.pkgd.min.js"></script> -->
 
     <script>
+        // var editor = new FroalaEditor('#nav');
+
         var navLinks = document.getElementById("navLinks");
 
         function showMenu() {
